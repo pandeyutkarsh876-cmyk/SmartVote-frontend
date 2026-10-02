@@ -1,0 +1,71 @@
+.confirm-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.confirm-modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.confirm-modal-content h3 {
+  margin-top: 0;
+  color: #DC2626;
+  margin-bottom: 1rem;
+}
+
+.confirm-instruction {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #4B5563;
+}
+
+.confirm-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #D1D5DB;
+  border-radius: 4px;
+}
+
+.confirm-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.btn-danger {
+  background-color: #DC2626;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-danger:disabled {
+  background-color: #FCA5A5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: #E5E7EB;
+  color: #374151;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #D1D5DB;
+}

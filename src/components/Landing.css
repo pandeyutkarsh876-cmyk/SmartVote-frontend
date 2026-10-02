@@ -1,0 +1,16 @@
+.landing-page { text-align: center; }
+.hero-section { background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%); color: white; padding: 6rem 2rem; }
+.hero-title { font-size: 3.5rem; margin-bottom: 1rem; font-weight: 800; }
+.hero-subtitle { font-size: 1.5rem; margin-bottom: 2.5rem; opacity: 0.9; }
+.hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.btn-lg { padding: 1rem 2rem; font-size: 1.125rem; font-weight: 600; border-radius: 8px; }
+.btn-secondary { background: white; color: #1E3A8A; border: none; }
+.btn-secondary:hover { background: #F3F4F6; }
+.features-section { padding: 5rem 2rem; background: #F9FAFB; }
+.features-section h2 { font-size: 2.5rem; color: #111827; margin-bottom: 3rem; }
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+.feature-card { background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: left; }
+.feature-icon { color: #3B82F6; margin-bottom: 1.5rem; }
+.feature-card h3 { font-size: 1.5rem; margin-bottom: 1rem; color: #1F2937; }
+.feature-card p { color: #4B5563; line-height: 1.6; }
+.landing-footer { background: #111827; color: #9CA3AF; padding: 2rem; }

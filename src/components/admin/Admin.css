@@ -1,0 +1,144 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.admin-header h2 {
+  margin: 0;
+  color: #111827;
+}
+
+.admin-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.admin-loading {
+  text-align: center;
+  padding: 3rem;
+  color: #6B7280;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #6B7280;
+  background: #F9FAFB;
+  border-radius: 8px;
+  border: 1px dashed #D1D5DB;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.admin-table th {
+  background-color: #F9FAFB;
+  font-weight: 600;
+  color: #374151;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #F9FAFB;
+}
+
+.admin-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.admin-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.admin-form input:disabled,
+.admin-form textarea:disabled {
+  background-color: #F3F4F6;
+  cursor: not-allowed;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.btn-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.btn-danger {
+  background-color: #EF4444;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: #DC2626;
+}
+.btn-danger:disabled {
+  background-color: #FCA5A5;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #E5E7EB;
+  color: #111827;
+}

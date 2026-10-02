@@ -1,0 +1,15 @@
+.voting-container { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+.voting-header { text-align: center; margin-bottom: 3rem; }
+.voting-header h2 { font-size: 2.5rem; color: #111827; margin-bottom: 0.5rem; }
+.voting-subtitle { font-size: 1.5rem; color: #3B82F6; font-weight: 600; margin-bottom: 1rem; }
+.voting-desc { color: #6B7280; max-width: 600px; margin: 0 auto; }
+.candidates-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+.candidate-card { background: white; border: 2px solid #E5E7EB; border-radius: 12px; padding: 2rem; cursor: pointer; transition: all 0.2s; position: relative; }
+.candidate-card:hover { border-color: #93C5FD; transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+.candidate-card.selected { border-color: #3B82F6; background: #EFF6FF; }
+.party-badge { display: inline-block; background: #E5E7EB; color: #374151; padding: 4px 12px; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; margin: 1rem 0; }
+.candidate-bio { color: #4B5563; font-size: 0.95rem; line-height: 1.5; margin-bottom: 2rem; }
+.select-indicator { position: absolute; bottom: 1.5rem; right: 1.5rem; font-weight: 600; color: #9CA3AF; }
+.candidate-card.selected .select-indicator { color: #3B82F6; }
+.voting-actions { display: flex; justify-content: flex-end; gap: 1rem; border-top: 1px solid #E5E7EB; padding-top: 2rem; }
+.voting-loading { text-align: center; padding: 5rem; font-size: 1.2rem; color: #6B7280; }
